@@ -1,0 +1,28 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.navigation{
+	background:green;
+}
+.navigation ul{
+		list-style:none;
+		padding:0px;
+		margin:0px;
+		text-align:center;
+}
+.navigation ul li{
+	display:inline-block;
+}
+.navigation ul li a{
+	text-decoration:none;
+	display:block;
+	font-size:20px;
+	color:white;
+	padding:20px 20px;
+}
+
+.ui-state-active{
+	background:red;
+}
